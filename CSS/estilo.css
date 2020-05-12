@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png');
+    background-size: auto 100vh;
+    font-family: verdana;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white ;
+  }
+  
+  .menu ul {
+    display: flex;
+     justify-content: space-between;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle {
+    color: black;
+    font-style: italic;
+  }
